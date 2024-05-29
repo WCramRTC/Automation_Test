@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout Main
-      run: actions/checkout@v4
+      run: actions/checkout@v2
 
     - name: Installing Python
       run: actions/setup-python@5
