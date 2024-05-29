@@ -1,0 +1,11 @@
+name: Will Test
+
+on:
+  push: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Do Something
