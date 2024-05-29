@@ -11,5 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout Main
       uses: actions/checkout@v2
+
+    - name: Installing Python
+      uses: actions/setup-python@5
