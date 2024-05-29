@@ -12,3 +12,4 @@ jobs:
 
     steps:
     - name: Do Something
+      run: actions/checkout@v4
